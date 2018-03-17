@@ -56,7 +56,7 @@ class AnonymizationInstallCommand extends Command
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
         $dir = $this->laravel->databasePath() . '/anonymization';
 

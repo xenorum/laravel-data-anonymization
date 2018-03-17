@@ -54,9 +54,9 @@ class MakeAnonymizerCommand extends GeneratorCommand
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
-        parent::fire();
+        parent::handle();
 
         $this->composer->dumpAutoloads();
     }
